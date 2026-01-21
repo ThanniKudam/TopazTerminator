@@ -1,6 +1,6 @@
 # TopazTerminator
 
-F, Another driver got burned.. I was gatekeeping wsftprm.sys driver for a while ;) but since someone posted a public POC https://github.com/xM0kht4r/AV-EDR-Killer , I'm ungatekeeping it. We all know it'll get added to the driver blocklist soon, so here's my implementation for the same — in C
+F, Another driver got burned.. I was gatekeeping wsftprm.sys driver for a while ;) but since someone posted a public POC, I'm ungatekeeping it. We all know it'll get added to the driver blocklist soon, so here's my implementation for the same — in C
 
 
 This project exploits the vulnerable `wsftprm.sys` (Topaz Antifraud kernel driver) to terminate protected processes (e.g., antivirus/EDR services) on Windows. 
